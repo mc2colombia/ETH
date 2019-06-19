@@ -403,6 +403,48 @@ h1, h2, h3, h4, h5, h6, figure {
 	&.header-fixed {
 
 	}
+	.img-shadow {
+		position: relative;
+		background: #7ED321;
+		width: 100%;
+		float: left;
+	}
+	.form-box {
+		max-height: 600px;
+		background: #FFF;
+		position: relative;
+		top: -20px;
+		left: -20px;
+		
+		.from-tittle {
+			font-size: 30px;
+			font-family: "Open Sans", Arial, sans-serif;
+    		line-height: 1.5;
+    		margin: 10px;
+    		color: #000;
+    		border-bottom: solid #7ED321;
+		}
+
+		.form-control {
+			margin-bottom: 15px;
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 18px;
+    		color: #757575;
+		}
+		.form-control:focus {
+			border-color: #7ED321;
+		}
+		.btn-primary {
+			background-color: #7ED321;
+    		margin: auto;
+    		top: -15px;
+    		position: relative;
+    		border-radius: 0;
+    		box-shadow: 0px 0px 4px -2px #8bde2f;
+		}
+	}
 	.text-left {
 		@media screen and (max-width: $screen-xs) {
 			text-align: center!important;
@@ -577,7 +619,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
  #gtco-about {
-	
 	.img-shadow {
 		position: relative;
 		background: $brand-primary;
